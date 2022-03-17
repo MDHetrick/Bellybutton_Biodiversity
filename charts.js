@@ -75,6 +75,7 @@ function buildCharts(sample) {
         var otuIDs = result.otu_ids;
         var otuLabels  = result.otu_labels;
         var sampleValues  = result.sample_values;
+        console.log(sampleValues)
         var wrapText = otuLabels.map(label => label.replaceAll(";", '; <br>' ));
 
         var sortedOtuLabels  = otuLabels.slice(0,11).reverse();   
@@ -114,12 +115,15 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", data, barLayout);
       // 1. Create the trace for the bubble chart.
     var bubbleData = [{
-      x: sampleValues,
-      y: otuIDs,
+      x: otuIDs,
+      y: sampleValues,
       text: wrapText,
+      hovertemplate:
+      "<b>Bacteria Label: </b> <br> <i>%{text}</i>",
       mode: 'markers',
       marker: {
         color: otuIDs,
+        colorscale: "Bluered",
         size: sampleValues,
         opacity: 0.6
         //dictionary that defines size/color/colorscale
@@ -128,8 +132,8 @@ function buildCharts(sample) {
   
       // 2. Create the layout for the bubble chart.
       var bubbleLayout = {
-        title: "Bacteria Cultures Per Sample"
-        // xaxis: "OTU ID",
+        title: "Bacteria Cultures Per Sample",
+        // xaxis: "OTU ID" ?>?? cannot add axis???
         // yaxis: "YACIS TITLE"
       };
   
