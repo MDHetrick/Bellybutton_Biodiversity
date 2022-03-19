@@ -1,0 +1,26 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../images/image2.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: #f7f7f7;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.well {
+    background-color:aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.panel {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
+}
+
+.col-s-12 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

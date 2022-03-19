@@ -7,12 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="static/js/charts.js"></script>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -21,13 +22,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-s-12 col-md-2">
         <div class="well">
-          <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
+          <h4>Test Subject ID No.:</h4>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-success">
+        <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
@@ -35,13 +35,14 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div id="bar">
-          <script src="charts.js"></script>
-        </div>
-      </div>
-      <div class="col-md-5">
         <div id="gauge"></div>
       </div>
+      <div class="col-md-5">
+        <div id="bar">
+          <script src="static/js/charts.js"></script>
+        </div>
+      </div>
+      
     </div>
     <div class="row">
       <div class="col-md-12">
@@ -49,9 +50,7 @@
       </div>
     </div>
   </div>
-
-
-  By Credit: Rocky Mountain Laboratories, NIAID, NIH - &lt;a rel=&quot;nofollow&quot; class=&quot;external text&quot; href=&quot;http://www.niaid.nih.gov/topics/biodefenserelated/biodefense/publicmedia/Pages/image_library.aspx&quot;&gt;NIAID&lt;/a&gt;: These high-resolution (300 dpi) images may be downloaded directly from this site. All the images, except specified ones from the World Health Organization (WHO), are in the public domain. For the public domain images, there is no copyright, no permission required, and no charge for their use., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=104228">Link</a>
+  Image Credit: Rocky Mountain Laboratories, NIAID, NIH, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=104228">Link</a>
 
 </body>
 
