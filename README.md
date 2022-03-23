@@ -1,11 +1,18 @@
 # Bellybutton_Biodiversity
+## Project Overview
+Belly button swabs from volunteers were cultured and the bacterial species were identified. The volunteer demographic data and the bacterial culture data were assembled, and displayed in this dashboard.
 
-Customize your dashboard with three of the following:
--> Add an image to the jumbotron.
-Add background color or a variety of compatible colors to the webpage.
--> Use a custom font with contrast for the colors.
-Add more information about the project as a paragraph on the page.
-Add information about what each graph visualizes, either under or next to each graph.
--> Make the webpage mobile-responsive.
--> Change the layout of the page.
-Add a navigation bar that allows you to select the bar or bubble chart on the page.
+## Charts
+#### Bar Chart
+A bar chart was created that displays the top 10 bacterial species in each donor's bellybutton.
+#### Bubble Chart
+A bubble chart was created that displays the bacterial ID (OTU ID) and the sample values as the y axis value and marker size.
+#### Gauge Chart
+A gauge chart was created that indicated the donor's belly button washing frequency.
+
+## Customizations:
+- An image was added to the jumbotron
+- A custom font with color contrast was added to the jumbotron
+- backtround colors were added to the Test Subject ID selection pane, and the demographic info pane
+- The webpage was made to be mobile-responsive
+- The belly button washing frequency was put next to the demographic info panel.

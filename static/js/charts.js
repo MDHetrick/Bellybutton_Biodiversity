@@ -92,7 +92,7 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: {text: "Top 10 bacterial cultures found"},
-      xaxis: {title: "number of something"},
+      xaxis: {title: "Sample Value"},
       margin: {
         l: 100,
         r: 100,
@@ -122,7 +122,8 @@ function buildCharts(sample) {
   // 2. Create the layout for the bubble chart.
   var bubbleLayout = {
     title: "Bacterial Cultures Per Sample",
-    xaxis: {title: "OTU ID"} 
+    xaxis: {title: "OTU ID"},
+    yaxis: {title: "Sample Value"}
   };
   
   // 3. Use Plotly to plot the data with the layout.
