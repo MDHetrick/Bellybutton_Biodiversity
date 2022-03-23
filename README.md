@@ -1,4 +1,4 @@
-# Bellybutton_Biodiversity
+# Bellybutton Biodiversity
 ## Project Overview
 Belly button swabs from volunteers were cultured and the bacterial species were identified. The volunteer demographic data and the bacterial culture data were assembled, and displayed in this dashboard.
 
