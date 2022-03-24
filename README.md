@@ -1,4 +1,4 @@
-# Bellybutton_Biodiversity
+# Bellybutton Biodiversity
 ## Project Overview
 Belly button swabs from volunteers were cultured and the bacterial species were identified. The volunteer demographic data and the bacterial culture data were assembled, and displayed in this dashboard.
 
@@ -13,6 +13,6 @@ A gauge chart was created that indicated the donor's belly button washing freque
 ## Customizations:
 - An image was added to the jumbotron
 - A custom font with color contrast was added to the jumbotron
-- backtround colors were added to the Test Subject ID selection pane, and the demographic info pane
+- Background colors were added to the Test Subject ID selection pane, and the demographic info pane
 - The webpage was made to be mobile-responsive
 - The belly button washing frequency was put next to the demographic info panel.
