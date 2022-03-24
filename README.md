@@ -16,3 +16,4 @@ A gauge chart was created that indicated the donor's belly button washing freque
 - Background colors were added to the Test Subject ID selection pane, and the demographic info pane
 - The webpage was made to be mobile-responsive
 - The belly button washing frequency was put next to the demographic info panel.
+- The colors for each of the charts were customized
