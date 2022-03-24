@@ -137,14 +137,14 @@ function buildCharts(sample) {
     type: "indicator", 
     mode: "gauge+number", 
     gauge: {
-      bar: {color: "black"},
+      bar: {color: 'rgb(4,43,58)'},
       axis: {range: [null, 10]},
       steps:[ 
-        {range: [0,2], color: "red"},
-        {range: [2,4], color: "orange"},
-        {range: [4,6], color: "yellow"},
-        {range: [6,8], color: "lightgreen"},
-        {range: [8,10], color: "green"}
+        {range: [0,2], color: 'rgb(166,206,227)'},
+        {range: [2,4], color: 'rgb(31,120,180)'},
+        {range: [4,6], color: 'rgb(178,223,138)'},
+        {range: [6,8], color: 'rgb(51,160,44)'},
+        {range: [8,10], color: 'rgb(251,154,153)'}
       ]
     }}];
   // 5. Create the layout for the gauge chart.
